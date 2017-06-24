@@ -1,9 +1,9 @@
 import React from "react";
 import { Route, IndexRoute, Router, hashHistory } from "react-router";
 
-var Index = require("../components/index");
-var Profile = require("../components/profile");
-var Filter = require("../components/filter");
+import Index from "../components/index";
+import Profile from "../components/profile";
+import Filter from "../components/filter";
 
 // Export the Routes
 module.exports = (
