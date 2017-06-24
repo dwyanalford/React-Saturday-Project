@@ -7,7 +7,7 @@ import Filter from "../components/Filter";
 
 const routes = (
   <Router history={browserHistory}>
-    <Route path="/" component={Index}>
+    <Route path="/" component={Main}>
     <Route path="profile" component={Profile} />
     <Route path="filter" component={Filter} />
     <IndexRoute component={Index} />
