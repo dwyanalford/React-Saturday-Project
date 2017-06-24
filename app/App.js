@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-const appRoot = document.getElementById('app');
-const App = (props) => <p>Hello World</p>;
-
-ReactDOM.render(<App/>, appRoot);
+import Index from "./components/index";
+// import routes from "../config/routes";
+const App = (props) => <Index />;
+ReactDOM.render(<App />, document.getElementById("app"));

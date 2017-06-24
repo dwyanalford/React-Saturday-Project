@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 // import Panel from "./common/Panel";
 // import QuoteForm from "./common/QuoteForm";
-import Users from "../../components/students";
+import Users from "../students";
 
 class Index extends Component {
   constructor() {
