@@ -3,7 +3,7 @@ import React, { Component } from "react";
 // import QuoteForm from "./common/QuoteForm";
 import Users from "../../components/students";
 
-class Home extends Component {
+class Index extends Component {
   constructor() {
     super();
     this.state = {
